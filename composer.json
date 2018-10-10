@@ -1,5 +1,5 @@
 {
-    "name": "james-heinrich/getid3",
+    "name": "winnersoftlab/getid3",
     "type": "library",
     "description": "Extract and write useful information to/from popular multimedia file formats",
     "keywords": ["id3", "tags", "codecs", "audio", "video", "metadata"],
