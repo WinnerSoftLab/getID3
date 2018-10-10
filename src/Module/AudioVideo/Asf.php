@@ -2,6 +2,7 @@
 
 namespace JamesHeinrich\GetID3\Module\AudioVideo;
 
+use JamesHeinrich\GetID3\GetID3;
 use JamesHeinrich\GetID3\Utils;
 use JamesHeinrich\GetID3\Module\Tag\ID3v2;
 
@@ -22,7 +23,7 @@ use JamesHeinrich\GetID3\Module\Tag\ID3v2;
 class Asf extends \JamesHeinrich\GetID3\Module\Handler
 {
 
-	public function __construct(getID3 $getid3) {
+	public function __construct(GetID3 $getid3) {
 		parent::__construct($getid3);
 
 		// initialize all GUID constants
